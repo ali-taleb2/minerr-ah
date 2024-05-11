@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINER GOD</title>
+    <style>
+        /* Styling for the menu shape */
+        .menu {
+            width: 50px;
+            height: 50px;
+            background-color: #ff0000;
+            border-radius: 50% 50% 0 0;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for the menu options */
+        .menu-options {
+            display: none;
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background-color: hsl(0, 100%, 50%);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Styling for the menu option links */
+        .menu-options a {
+            display: block;
+            color: hwb(0 100% 0%);
+            text-decoration: none;
+            padding: 5px 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu shape -->
+    <div class="menu" onclick="toggleMenuOptions()">Menu</div>
+
+    <!-- Menu options -->
+    <div class="menu-options" id="menuOptions">
+        <a href="#" onclick="alert('Log In')">Log In</a>
+        <a href="#" onclick="alert('Sign Up')">Sign Up</a>
+    </div>
+
+    <script>
+        function toggleMenuOptions() {
+            var menuOptions = document.getElementById("menuOptions");
+            if (menuOptions.style.display === "none") {
+                menuOptions.style.display = "block";
+            } else {
+                menuOptions.style.display = "none";
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    /* Style to position the logo */
+    .logo {
+        position: fixed;
+        top: -15px;
+        right: 340px;
+        width: 150px; /* Adjust the width as needed */
+        height: auto; /* Height auto-adjusted to maintain aspect ratio */
+        z-index: 9999; /* Ensure the logo appears on top of other elements */
+    }
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blue Background</title>
+<style>
+    /* CSS to set blue background */
+    body {
+        background-color: #00ff; /* Blue color code */
+        margin: 0; /* Remove default body margin */
+        padding: 0; /* Remove default body padding */
+        height: 100vh; /* Make sure the background covers the entire viewport height */
+    }
+</style>
+</head>
+<body>
+    <img src="website.jpg" alt="Logo" class="logo">
+</body>
+</html>
